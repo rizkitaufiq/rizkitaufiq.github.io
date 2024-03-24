@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+</head>
+
+<body>
+    <!-- Nav Header Menu -->
+    <nav id="desktop-nav">
+        <div class="logo">Rizki Taufiq</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Rizki Taufiq</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Profile -->
+    <section id="profile">
+        <div class="section-photo-container">
+            <img src="image/photo/ellipse-profile-1.png" alt="Profile picture">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p-intro">Hello, I'm</p>
+            <h1 class="title">Rizki Taufiq</h1>
+            <p class="section-text-p-job">Backend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-primary" onclick="window.open('image/resume/Resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-secondary" onclick="location.href='#contact'">Contact</button>
+            </div>
+            <div id="social-container">
+                <img src="image/icon/playstore.png" alt="Goole Playstore account" class="icon" onclick="location.href='https://play.google.com/store/apps/developer?id=rzk+developer&hl=id&gl=US'">
+                <img src="image/icon/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/rizkitaufiq'">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section-text-intro">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-photo-container">
+                <img src="image/photo/profile-2.png" alt="Profile picture" class="about-photo">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="image/icon/experience.png" alt="Achievment" class="icon">
+                        <h3>Experience</h3>
+                        <p>1+ years <br>Backend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="image/icon/graduation-hat.png" alt="Education" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelor of Computer Science  <br>Universitas Jenderal Soedirman</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am a bachelor of informatics engineering graduate with a strong foundation in back-end
+                        development and experience in build website-based systems such as location-based
+                        service, archive, ecommerce and company profile. Website Skilled in Php, Python and
+                        MySQL with a passion for learning new technologies which is often used to be ready
+                        develop myself.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="image/icon/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='#skills'">
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <p class="section-text-intro">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="skills-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Programming</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Php</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Pyhton</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Html</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Framework</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Codeigniter</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Laravel</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Django</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="image/icon/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <img src="image/icon/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <p class="section-text-intro">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-details-container">
+            <div class="projects-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="image/projects/ss-simple-ecommerce.png" alt="Projects 1" class="project-img">
+                    </div>
+                    <h2 class="projects-sub-title project-title">Simple Ecommerce</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-primary projects-btn" onclick="location.href='https://github.com/rizkitaufiq/simple_ecommerce_django5.git'">Github</button>
+                    </div>
+                </div>
+                
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="image/projects/ss-conservation.png" alt="Projects 1" class="project-img" >
+                    </div>
+                    <h2 class="projects-sub-title project-title">Conservation</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-primary projects-btn" onclick="location.href='https://github.com/rizkitaufiq/frontend_conservation'">Github</button>
+                    </div>
+                </div>
+
+               
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="image/projects/ss-archive-system.png" alt="Projects 1" class="project-img">
+                    </div>
+                    <h2 class="projects-sub-title project-title">Archive System</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-primary projects-btn" onclick="location.href='https://github.com/rizkitaufiq/siap.github.io'">Github</button>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <img src="image/icon/arrow.png" alt="Arrow" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section-text-intro">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="image/icon/email.png" alt="Email" class="icon email-icon">
+                <p>rizkitaufiq97@gmail.com</p>
+            </div>
+            
+            <div class="contact-info-container">
+                <img src="image/icon/whatsapp.png" alt="Email" class="icon email-icon">
+                <p>082327243687</p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
