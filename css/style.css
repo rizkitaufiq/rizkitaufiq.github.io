@@ -353,15 +353,15 @@ section{
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1.5rem;
     justify-content: space-around;
 }
 
 article{
     display: flex;
-    width: 10rem;
+    width: 9rem;
     justify-content: flex-start;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 article .icon{
